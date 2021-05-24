@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Print'){
             steps{
-                sh 'echo Testing webhook for multibranch job'
+                sh 'echo Testing webhook for multibranch job - test'
             }
         }
     }
